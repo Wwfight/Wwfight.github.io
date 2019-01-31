@@ -19,7 +19,7 @@
     <meta name="description" content="">
     <meta name="author" content="John Doe">
     <meta name="keywords" content="">
-    <title>Hello World ~ Hexo</title>
+    <title>第一篇文章 - Hexo</title>
     <link rel="stylesheet" href="/css/Material_Icons.css">
     <!-- <link rel="stylesheet" href="/css/font-awesome.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
@@ -37,7 +37,7 @@
     <div class="container">
         <div class="navbar-translate">
             <a class="navbar-brand" href="/">
-                Hexo</a>
+                Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="navbar-toggler-icon"></span>
@@ -50,8 +50,8 @@
                     
                         
                             <li class="nav-item">
-                                <a class="nav-link" href="/archives/">
-                                    archives
+                                <a class="nav-link" href="/archive/">
+                                    archive
                                 </a>
                             </li>
                         
@@ -65,7 +65,7 @@
                     
                         
                             <li class="nav-item">
-                                <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://github.com/" target="_blank" data-original-title="See me here">
+                                <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://github.com/Wwfight" target="_blank" data-original-title="See me here">
                                     <i class="fa fa-github"></i>
                                 </a>
                             </li>
@@ -85,7 +85,7 @@
   <div class="page-header header-filter" data-parallax="true" style="background-image: url('/img/post-banner.jpg'); height: 70vh;">
     
       <div class="container">
-        <h1 class="title text-center post_title">Hello World</h1>
+        <h1 class="title text-center post_title">第一篇文章</h1>
         <p class="text-center"><b>Wednesday, January 30th 2019, 3:28 pm</b></p>
       </div>
     
@@ -95,24 +95,12 @@
   
   
     <div class="row" style="margin: 0 0 0; z-index: 999;">
-  <div class="col-md-8 offset-md-1">
+  <div class="col-md-10 offset-md-2">
     <div class="main main-raised">
       <div class="container">
         <div class="section">
           <div class="post_content">
-              <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+              <p>欢迎来到我的个人主页，该主页用hexo框架搭建。<br>想要了解更多？  =&gt;  Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>!</p>
 
           </div>
           <br><br>
@@ -134,32 +122,30 @@
         </div>
       </div>
   
+
 </div>
 
 
 <!-- Comments -->
-<div class="row">
-    <div class="col-md-8 offset-md-2">
+<div class="row" style="margin: 0;">
+    <div class="col-md-12 offset-md-0">
     
         
-            <div class="disqus" style="width:100%">
-    <div id="disqus_thread"></div>
-    <script>               
-        var disqus_shortname = '';
-        var disqus_config = function () {
-            this.page.url = 'https://github.com/Wwfight/Wwfight.github.io/2019/01/30/hello-world/'; 
-            this.page.identifier = '/2019/01/30/hello-world/';
-        };
-        (function() { 
-            var d = document, s = d.createElement('script');
-            s.type = 'text/javascript';
-            s.src = '//'+disqus_shortname+'.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>                                
-</div>
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<div id="gitalk-container"></div>
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: '34e1c7895bda974761a2',
+        clientSecret: '988dad03e66c4fb176a07f8a3f7b6a20e72e99f2',
+        id: window.location.pathname,
+        repo: 'comments',
+        owner: 'Wwfight',
+        admin: 'Wwfight'
+    })
+    gitalk.render('gitalk-container')
+</script>
+
         
     
     </div>
@@ -169,7 +155,7 @@
 <footer class="footer footer-default">
         <div class="container">
           <div class="float-left" style="padding: 15px 0;">
-              <b>多喝热水</b>
+              <b>From right now</b>
           </div>
           <div class="copyright float-right">
             &copy;
